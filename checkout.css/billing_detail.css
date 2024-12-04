@@ -1,0 +1,42 @@
+.billing_detail{
+    width: 600px;
+    position: absolute;
+    right: 100px;
+    bottom: 60px;
+}
+
+label {
+    display: block;
+}
+
+input{
+    padding: 8px 10px;
+    margin-right: 100px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: gray;
+    margin-top: 8px;
+}
+
+.formatr{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.BD{
+    font-weight: 1000;
+    font-size: 20px;
+
+}
+
+.AI{
+    font-weight: 1000;
+    margin-bottom: 5px;
+}
+
+.additional{
+    padding: 30px 11px;
+    border-radius: 5px;
+    margin-top: 10px;
+}

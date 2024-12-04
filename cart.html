@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css/nav.css">
+    <link rel="stylesheet" href="cart.css/cart.css">
+    <link rel="stylesheet" href="cart.css/order_summary.css">
+
+</head>
+<body>
+    <nav>
+        
+        <div class="navttl">
+            <img class="logo" src="images/pmh.png" alt="">
+            <a class="ttl" href="Main.html">PUP MERCH HUB </a>
+        </div>
+        <div class="navatr">
+            <a class="navattribute" href="">CATALOUGE</a>
+            <a class="navattribute" href="">FASHION</a>
+            <a class="navattribute" href="cart.html">CART</a>
+        </div>
+        <div class="navbtn">
+            <button class="btnli">LOGIN</button>
+            <button class="btnsu">SIGN UP</button>
+        </div>
+    </nav>
+
+    <section class="cart">
+        <div>
+        <p>Cart</p>
+        </div>
+
+        <div class="product">
+            <img src="images/jacket.jpg" alt="">
+
+            <div class="item_det">
+            <p>CLassic Pullover Hoodie Jacket</p>
+            <p>P 1000.00</p>
+            <div class="quantity">
+                <p>Quantity:</p>
+                <div class="quantity-container">
+                    <input type="number" id="quantity" value="1" min="1">
+                  </div>
+                </div>
+
+                <p class="FS">FREE SHIPPING</p>
+
+            <div class="circle-and-stock">
+                <div class="circle">
+                <p class="check">&#10003;</p>
+               </div>
+               <p>in stock</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="images/idlace.jpg" alt="">
+
+            <div class="item_det">
+            <p>ID Lanyard PUP Paranaque </p>
+            <p>P 150.00</p>
+            <div class="quantity">
+                <p>Quantity:</p>
+                <div class="quantity-container">
+                    <input type="number" id="quantity" value="1" min="1">
+                  </div>
+                </div>
+
+                <p class="FS">FREE SHIPPING</p>
+
+            <div class="circle-and-stock">
+                <div class="circle">
+                <p class="check">&#10003;</p>
+               </div>
+               <p>in stock</p>
+            </div>
+            </div>
+        </div>
+
+        <section class="order_summary">
+            <p>Order Summary</p>
+
+            <div class="totality">
+            <p>Sub Total: </p>
+            <p>P 1,150.00</p>
+            </div>
+            <hr>
+            <div class="totality">
+            <p>Shipping Estimimate: </p>
+            <p>P 00.00</p>
+            </div >
+            <hr>
+            <div class="totality">
+            <p class="order_total">order total: </p>
+            <p>P 1,150.00</p>
+            </div>
+
+            <a href="checkout.html">
+            <button class="checkoutbtn">CHECKOUT</button>
+            </a>
+
+        </section>
+
+        <section class="ad">
+            <img src="images/ad.png" alt="">
+        </section>
+    </section>
+
+
+    <script src="javascript/quantity.js"></script>
+</body>

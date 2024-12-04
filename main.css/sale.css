@@ -1,0 +1,65 @@
+.bg2{
+    margin-top: 130px;
+}
+
+.bg2 img{
+    height: 600px;
+
+}
+
+.texts{
+    background: linear-gradient(to top, #E1C441, #ECCD49, #FAE057);
+    height: 600px;
+    margin-top: 130px;
+    margin-left: -3px;
+}
+
+.sale{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.payday{
+    font-size: 80px;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.spend{
+    font-size: 30px;
+    width: 450px;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.date{
+    font-size: 30px;
+    width: 350px;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.terms{
+    font-size: 30px;
+    margin-left: 70px;
+    margin-bottom: 25px;
+}
+
+.SNbtn2{
+    padding: 15px 35px;
+    background-color: black;
+    color: white;
+    margin-left: 70px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.mark2{
+    background-color: white;
+    padding: 0px 13px;
+    display: inline-block;
+    transform: rotate(-1deg);
+}

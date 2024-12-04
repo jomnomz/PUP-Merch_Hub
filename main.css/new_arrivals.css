@@ -1,0 +1,42 @@
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+}
+
+.NA{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.idlace, .jacket, .tshirt{
+    height: 350px;
+    widows: 350px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.det_idlace{
+    margin-left: 50px;
+}
+
+.prodimg{
+    position: relative;
+}
+
+.arrow1{
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+}
+.prod{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.EN1{
+    font-size: 15px;
+    color: gray;
+}

@@ -1,0 +1,31 @@
+.order_summary{
+    width: 280px;
+    box-shadow: 0cap 0px 0px 1px black;
+    border-radius: 5px;
+    height: 210px;
+    padding: 25px;
+    position: absolute;
+    right: 100px;
+    bottom: 30px;
+}
+
+.order_total{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.totality{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.checkoutbtn{
+    padding: 10px;
+    margin-right: 100px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(110, 4, 4);
+}

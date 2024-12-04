@@ -1,0 +1,40 @@
+.promo{
+    background-color: #EEC413;
+    height: 350px;
+    margin-top: 200px;
+}
+
+.promo p{
+    color: white;
+    text-align: center;
+}
+
+.join{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.type{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.send{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.sendbtn{
+    position: absolute;
+    right: 555px;
+    bottom: 5px;
+    padding: 8px 8px;
+    font-weight: bold;
+    color: white;
+    background-color: #8B1205;
+    border-radius: 5px;
+    border: none;
+}
