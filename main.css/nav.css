@@ -13,7 +13,6 @@ nav{
 
 .navttl{
     flex: 1;
-
     display: flex;
     align-items: center;
     font-size: 35px;
@@ -26,7 +25,7 @@ nav{
 }
 
 .navatr{
-    flex: .8;
+    flex: 0.8;
 }
 
 .logo{
@@ -36,10 +35,8 @@ nav{
     margin-left: 50px;
 }
 
-
 .navbtn{
-    flex: .3;
-    
+    flex: 0.3;
 }
 
 .navattribute{
@@ -65,4 +62,48 @@ a{
 .btnsu{
     background-color: black;
     color: white;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .navttl {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        height: 40px;
+        width: 40px;
+        margin: 0;
+    }
+
+    .navattribute {
+        margin: 0;
+        text-align: center;
+    }
+
+    .btnli, .btnsu {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navttl {
+        font-size: 20px;
+    }
+
+    .btnli, .btnsu {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+
+    .navattribute {
+        font-size: 14px;
+    }
 }
